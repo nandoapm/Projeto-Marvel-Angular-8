@@ -3,8 +3,12 @@
 Projeto elaborado consumindo ApiMarvel https://developer.marvel.com
 
 Projeto criado com Angular 8 e Bootstrap 4
+*******************************************************************
+É preciso instalar dependências
 
-Foi instalado as dependências
+npm install
+
+Caso não instale todas
 
 npm i @angular/http
 
@@ -14,7 +18,7 @@ npm i @angular/http
 
 npm install --save ts-md5 (para criacao do hash)
 
-
+*******************************************************************
 No aplicativo você pode fazer uma busca pelo personagem.
 
 A Busca trará o personagem desejado com nome e foto
