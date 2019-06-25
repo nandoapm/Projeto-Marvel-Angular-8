@@ -1,0 +1,15 @@
+<div style="background: #CD0000">
+  <h1 style="text-align: center; color: #ffffff">
+    {{title}}
+  </h1>
+</div>
+<div class="container">
+  <img src="./assets/logo_marvel.jpeg" alt="Marvel" style="text-align: center">
+</div>
+<div class="container">
+    <input (keyup)="getCharactersByName()" [(ngModel)]="nameStartsWith" class="form-control" placeholder="Busque seu Personagem">
+</div>
+<br>
+<app-status [errorMessage]='errorMessage' [successMessage]='successMessage' ></app-status>
+  
+<app-lista-personagem [herois]='characters' ></app-lista-personagem>
